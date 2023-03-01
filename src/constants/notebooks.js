@@ -1,0 +1,15 @@
+export const comps = [
+  { id: 1, text: "Apple Notebooklari", isActive: true },
+  { id: 2, text: "Lenova Notebooklari", isActive: false },
+  { id: 3, text: "HP Notebooklari", isActive: false },
+  { id: 4, text: "MSI Notebooklari", isActive: false },
+  { id: 5, text: "Acer Notebooklari", isActive: false },
+  { id: 6, text: "ASUS Notebooklari", isActive: false },
+  { id: 7, text: "Dell Notebooklari", isActive: false },
+  { id: 8, text: "Dell Notebooklari", isActive: false },
+  { id: 9, text: "Razer Notebooklari", isActive: false },
+  { id: 10, text: "Samsung Notebooklari", isActive: false },
+  { id: 11, text: "LG Notebooklari", isActive: false },
+  { id: 12, text: "Microsoft Surface", isActive: false },
+  { id: 5, text: "Hyper X Kompyuterlari", isActive: false },
+];

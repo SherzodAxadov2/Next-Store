@@ -1,0 +1,118 @@
+.footer {
+    width: 100%;
+    height: auto;
+    background: linear-gradient(270deg, rgba(77, 94, 246, 0.2) 0%, rgba(246, 77, 77, 0.2) 100%);
+}
+
+.footer-table {
+    margin-top: 100px;
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Documents_title {
+    padding-bottom: 20px;
+    width: 69px;
+    height: 19px;
+    font-family: 'Nuckle';
+    font-style: normal;
+    font-weight: 653;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    color: #1E1E1E;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/* .Service {
+    padding-left: 135px;
+} */
+
+.Service_title {
+    width: 52px;
+    height: 19px;
+    font-family: 'Nuckle';
+    font-style: normal;
+    font-weight: 653;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    color: #1E1E1E;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/* .ProductCatalog {
+    padding-left: 145px;
+} */
+
+.ProductCatalog_title {
+    width: 167px;
+    height: 19px;
+    font-family: 'Nuckle';
+    font-style: normal;
+    font-weight: 653;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    color: #1E1E1E;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/* .InformationService {
+    padding-left: 250px;
+} */
+
+.InformationService_title {
+    width: 130px;
+    height: 19px;
+    font-family: 'Nuckle';
+    font-style: normal;
+    font-weight: 653;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    color: #1E1E1E;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.Documents_text,
+.Service_text,
+.ProductCatalog_text,
+.InformationService_text {
+    font-family: 'Nuckle';
+    font-style: normal;
+    font-weight: 539;
+    font-size: 16px;
+    padding-top: 10px;
+    line-height: -20px;
+    color: #1E1E1E;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.icon {
+    font-size: 3rem;
+    padding-right: 20px;
+}
+
+.line {
+    width: 85%;
+    margin-top: 50px;
+    margin: 0 auto;
+}
+
+.footer_dicription {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}

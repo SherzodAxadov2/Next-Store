@@ -1,0 +1,26 @@
+
+.category{
+    background-color: #fff;
+    padding: 3%;
+    width: 100%;
+    height: 220px;
+    display: block;
+    border-radius: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.display{
+    width: 100%;
+    height: 60%;
+    border-radius: 5px;
+}
+.display img{
+    max-width: 90%;
+    max-height: 100%;
+}
+.description{
+    width: 100%;
+    height: 40%;
+    margin-top: 1%;
+    box-sizing: border-box;
+}

@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'Bold' !important;
+    src: url('./assets/fonts/Nuckle-Bold.ttf') !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--body-color);
+    font-family: 'Bold';
+}
+
+* button:focus {
+    outline: none;
+}
+
+* button {
+    outline: none;
+}
+
+.app {
+    width: 100%;
+    min-height: 100vh;
+    background: #ecf4ff;
+}
+
+:root {
+    --light-blue: #ECF4FF;
+    --blue: #0d63f3;
+    --linear-gradient-catalog: linear-gradient(270deg, #4d5ef6 0%, #f64d4d 100%);
+    --linear-gradient-banner: linear-gradient(270deg, rgba(77, 94, 246, 0.2) 0%, rgba(246, 77, 77, 0.2) 100%);
+    --orange: #eb8528;
+    --body-color: #1e1e1e;
+    --gray: #6c757d;
+    --light-gray: #E4E7EE;
+    --box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    --transition: all .2s ease-in-out;
+}
+
+* ul, p {
+    list-style-type: none;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+* a {
+    text-decoration: none !important;
+}
+
+img {
+    vertical-align: middle;
+}

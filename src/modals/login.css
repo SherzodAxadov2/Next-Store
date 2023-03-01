@@ -1,0 +1,26 @@
+.modal-content {
+  padding: 20px;
+}
+.modal-title {
+  font-weight: 591;
+  font-size: 28px;
+  line-height: 34px;
+  display: flex;
+  align-items: center;
+  color: #333232;
+}
+.modal .modalBtn {
+  width: 100%;
+  display: block;
+}
+.modal a {
+  font-weight: 539;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #0d63f3;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  margin-top: 15px;
+}/*# sourceMappingURL=login.css.map */

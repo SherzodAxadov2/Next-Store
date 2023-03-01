@@ -1,0 +1,44 @@
+.filter {
+    padding-top: 120px;
+    &-main {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 24% 74%;
+        justify-content: space-between;
+        align-items: flex-start;
+        .product-best {
+            grid-template-columns: 24% 24% 24% 24%;
+        }
+    }
+    &-left {
+        padding: 20px;
+        width: 100%;
+        height: auto;
+        background: #fff;
+        border-radius: 8px;
+        ul {
+            display: flex;
+            flex-direction: column;
+            li {
+                a {
+                    display: block;
+                    margin-bottom: 15px;
+                    color: var(--body-color);
+                    transition: var(--transition);
+                    &:first-child {
+                        margin-top: 10px;
+                    }
+                    &:hover,
+                    &.selected {
+                        color: var(--blue);
+                    }
+                }
+            }
+        }
+    }
+    &-text {
+        font-weight: 539;
+        font-size: 16px;
+        line-height: 19px;
+    }
+}

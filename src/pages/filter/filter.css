@@ -1,0 +1,41 @@
+.filter {
+  padding-top: 120px;
+}
+.filter-main {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 24% 74%;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.filter-main .product-best {
+  grid-template-columns: 24% 24% 24% 24%;
+}
+.filter-left {
+  padding: 20px;
+  width: 100%;
+  height: auto;
+  background: #fff;
+  border-radius: 8px;
+}
+.filter-left ul {
+  display: flex;
+  flex-direction: column;
+}
+.filter-left ul li a {
+  display: block;
+  margin-bottom: 15px;
+  color: var(--body-color);
+  transition: var(--transition);
+}
+.filter-left ul li a:first-child {
+  margin-top: 10px;
+}
+.filter-left ul li a:hover, .filter-left ul li a.selected {
+  color: var(--blue);
+}
+.filter-text {
+  font-weight: 539;
+  font-size: 16px;
+  line-height: 19px;
+}/*# sourceMappingURL=filter.css.map */
